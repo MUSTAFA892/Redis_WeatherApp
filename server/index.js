@@ -10,7 +10,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
+const WEATHER_API_KEY = process.env.WEATHER_API_KEY || "00b5076eafbb4d98b8572150242810";
 
 app.use(cors());
 
